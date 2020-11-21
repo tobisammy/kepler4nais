@@ -1,0 +1,243 @@
+:root {
+	--primary-color: #1c0652;
+	--secondary-color: #0c021d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1, h2, p{
+    line-height: 1.3;
+}
+
+ul{
+	list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: 15% 0 5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    width: 100%;
+}
+
+.front-page{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg.jpeg) center center fixed;
+    position: relative;
+    /* filter: brightness(50%); */
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: inherit;
+}
+
+.front-page i{
+    font-size: 28px;
+    position: absolute;
+    top: 18px;
+    right: 65px;
+    color: #fff;
+}
+
+.header h1{
+    color: #fff;
+    margin: 20px 20px 0;
+    font-family: cursive;
+    border-bottom: 4px solid rgb(4, 4, 105);
+    width: 100px;
+    text-align: center;
+}
+
+.header h1 span{
+    color: rgb(4, 4, 105);
+}
+
+.header .menu{
+    padding: 20px 20px 0;
+}
+
+.header .menu span{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    display: block;
+}
+
+.front-page .vote{
+    transform: translate(2%, 30%); 
+}
+
+.front-page .vote h3{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 0;
+    width: 350px;
+    height: 200px;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.front-page .vote p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-top: 40px;
+    padding: 30px 10px 0;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.8px;
+}
+
+.front-page .vote div {
+    margin: 1rem 7em;
+    width: 150px;
+    height: 40px;
+    border: 3px solid rgb(1, 1, 44);
+    background-color: none;
+    text-align: center;
+    padding-top: 8px;
+    animation: change 5s linear infinite;
+}
+
+@keyframes change{
+    50%{
+        background-color: rgb(1, 1, 78);
+    }
+}
+
+.front-page .vote div a{
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.section1 .kep{
+    width: 300px;
+    min-height: 100px;
+    background-color: #fff;
+    margin: 25px auto;
+    text-align: center;
+    box-shadow: 0 2px 5px rgb(179, 178, 178);
+    line-height: 2em;
+}
+
+.kep h4{
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.kep h3{
+    font-size: 27px;
+    font-weight: 900;
+    margin: 1rem;
+    color: rgba(5, 1, 10),0.7;
+}
+
+.kep p{
+    font-size: 17px;
+    padding: 10px;
+    font-family: Cambria;
+    line-height: 1.6;
+    opacity: 0.7;
+}
+
+.kep .support{
+    color: rgb(2, 2, 63);
+    border-bottom: 3px solid rgb(2, 2, 46);
+    width: 180px;
+    font-size: 17px;
+    transform: translate(55px, -20%);
+    margin-bottom: 1rem;
+}
+
+.section1 .svg{
+    width: 100%;
+}
+
+.section1 .svg6{
+    position: relative;
+}
+
+.section1 .svg6 h2{
+    color: #fff;
+    position: absolute;
+    text-shadow: 0 3px 5px blue;
+    top: 7%;
+    font-size: 40px;
+    padding: 0 100px 0;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(1, 1, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center
+}
+
+.footer p{
+    color: #fff;
+    font-size: 17px;
+    padding: 4px;
+}
+
+.footer .reach{
+    font-size: 14px;
+}
+
+.footer a{
+    font-size: 20px;
+    color: rgb(6, 6, 165);
+    font-weight: 900;
+}
+
+.footer .fa-heart{
+    animation: changeColor 2s linear infinite;
+}
+
+@keyframes changeColor{
+    50%{
+        color: rgb(6, 6, 109);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
